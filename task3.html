@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="myCSS.css"/>
+</head>
+<body>
+
+<form id="eventForm">
+    <div>
+        <label for="secondName">Фамилия</label>
+        <input id="secondName" type="text"/>
+    </div>
+
+    <div>
+        <label for="firstName">Имя</label>
+        <input id="firstName" type="text"/>
+    </div>
+
+    <div>
+        <label for="middleName">Отчество</label>
+        <input id="middleName" type="text"/>
+        </label>
+    </div>
+
+    <div id="GenderRadio">
+        Выберите пол:
+        <label for="manRadio">Мужской</label>
+        <input type="radio" id="manRadio" value="man">
+        <label for="womanRadio">Женский</label>
+        <input type="radio" name="womanRadio" value="woman"/>
+    </div>
+
+    <div id="cityDropDown">
+        Choose city:
+        <ul>
+            <li>
+                <span id="cityChoosen">Choose city</span>
+                <ul id="cityVariable">
+                    <li>Novosibirsk</li>
+                    <li>Moscow</li>
+                    <li>Vladivostok</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <label for="username">Login</label>
+        <input id="username" type="text"/>
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input id="password" type="text"/>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input id="email" type="text"/>
+    </div>
+
+    <div>
+        <label for="repeatPassword">Repeat Password</label>
+        <input id="repeatPassword" type="text"/>
+    </div>
+
+    <input type="submit" id="button"/>
+</form>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="task3.js"></script>
+</body>
+</html>
